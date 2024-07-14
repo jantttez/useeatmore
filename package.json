@@ -1,0 +1,56 @@
+{
+  "name": "useeatmore",
+<<<<<<< HEAD
+  "version": "1.0.3",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+=======
+  "version": "0.0.1",
+  "main": "src/index.ts",
+>>>>>>> 0c217cc (update: package.json, etc.)
+  "author": {
+    "name": "jantttez",
+    "url": "https://github.com/jantttez"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jantttez/useeatmore.git"
+  },
+  "scripts": {
+    "dev": "vite",
+<<<<<<< HEAD
+    "build": "tsc",
+=======
+    "build": "tsc -b && vite build",
+>>>>>>> 0c217cc (update: package.json, etc.)
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "prepare": "husky",
+    "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "ts-jest": "^29.2.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "husky": "^9.0.11",
+    "pinst": "^3.0.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
+  }
+}
