@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-// проверить можно ли публиковать это с ts main файлом, и опубликовать заново
-=======
-/// проверить можно ли пукшить с ts файлами + опубликовать
-/// разобраться поченму dist папка не создается при сборки
->>>>>>> 0c217cc (update: package.json, etc.)
+//testing myself hooks lib for personal usage
+
+![useeatmore](./useeatmorePreview.png)

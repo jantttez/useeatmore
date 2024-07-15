@@ -1,13 +1,7 @@
 {
   "name": "useeatmore",
-<<<<<<< HEAD
-  "version": "1.0.3",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-=======
   "version": "0.0.1",
-  "main": "src/index.ts",
->>>>>>> 0c217cc (update: package.json, etc.)
+  "main": "dist/index.js",
   "author": {
     "name": "jantttez",
     "url": "https://github.com/jantttez"
@@ -22,33 +16,39 @@
   },
   "scripts": {
     "dev": "vite",
-<<<<<<< HEAD
-    "build": "tsc",
-=======
     "build": "tsc -b && vite build",
->>>>>>> 0c217cc (update: package.json, etc.)
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "prepare": "husky",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn lint && yarn test && yarn build",
+    "test": "jest"
   },
   "dependencies": {
     "jest": "^29.7.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "ts-jest": "^29.2.2"
+    "ts-jest": "^29.2.2",
+    "useeatmore": "^0.0.1"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.24.8",
+    "@babel/preset-typescript": "^7.24.7",
+    "@testing-library/dom": "^10.3.1",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/react-hooks": "^8.0.1",
     "@types/jest": "^29.5.12",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
     "@typescript-eslint/parser": "^7.13.1",
     "@vitejs/plugin-react": "^4.3.1",
+    "babel-jest": "^29.7.0",
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "husky": "^9.0.11",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^24.1.0",
     "pinst": "^3.0.0",
     "typescript": "^5.2.2",
     "vite": "^5.3.1"
