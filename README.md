@@ -1,3 +1,3 @@
-//testing myself hooks lib for personal usage
+//hooks doesnt work and i dont now why...
 
 ![useeatmore](./useeatmorePreview.png)
