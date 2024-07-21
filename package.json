@@ -1,6 +1,6 @@
 {
   "name": "useeatmore",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "dist/index.js",
   "author": {
     "name": "jantttez",
@@ -25,6 +25,11 @@
     "@types/react": "^18.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@babel/preset-env": "^7.24.8",
