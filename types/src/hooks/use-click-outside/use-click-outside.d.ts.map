@@ -1,0 +1,1 @@
+{"version":3,"file":"use-click-outside.d.ts","sourceRoot":"","sources":["../../../../src/hooks/use-click-outside/use-click-outside.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,gBAAgB,EAAE,cAAc,EAAa,MAAM,OAAO,CAAC;AAiB9E,wBAAgB,eAAe,CAAC,CAAC,SAAS,WAAW,EACnD,GAAG,EAAE,gBAAgB,CAAC,CAAC,GAAG,IAAI,CAAC,EAAE,gEAAgE;AACjG,QAAQ,EAAE,QAAQ,CAAC,cAAc,CAAC,OAAO,CAAC,CAAC,QAe5C"}

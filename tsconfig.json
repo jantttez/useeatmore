@@ -22,8 +22,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "moduleDetection": "force",
-    "noEmit": true,
+    //"noEmit": true,
     "jsx": "react-jsx",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "types",
+    "declarationMap": true,
 
     /* Linting */
     "strict": true,
@@ -35,6 +39,6 @@
       "@app/*": ["src/app/*"]
     }
   },
-  "include": ["vite.config.ts", "src"],
-  "exclude": ["dist"]
+  "include": ["vite.config.ts", "src/**/*"],
+  "exclude": ["dist", "node_modules", "jest.config.js"]
 }

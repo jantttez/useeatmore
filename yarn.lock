@@ -2837,10 +2837,10 @@ human-signals@^2.1.0:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
 
-husky@^9.0.11:
-  version "9.0.11"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-9.0.11.tgz#fc91df4c756050de41b3e478b2158b87c1e79af9"
-  integrity sha512-AB6lFlbwwyIqMdHYhwPe+kjOC3Oc5P3nThEoW/AaO2BX3vJDjWPFxYLxokUZOo6RNX20He3AaT8sESs9NJcmEw==
+husky@x.x.x:
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-9.1.1.tgz#73f8f1b58329f377654293148c1a6458f54ca224"
+  integrity sha512-fCqlqLXcBnXa/TJXmT93/A36tJsjdJkibQ1MuIiFyCCYUlpYpIaj2mv1w+3KR6Rzu1IC3slFTje5f6DUp2A2rg==
 
 iconv-lite@0.6.3:
   version "0.6.3"
@@ -3891,7 +3891,7 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-react-dom@^18.3.1:
+react-dom@^18:
   version "18.3.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.3.1.tgz#c2265d79511b57d479b3dd3fdfa51536494c5cb4"
   integrity sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==
@@ -3921,7 +3921,7 @@ react-refresh@^0.14.2:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.14.2.tgz#3833da01ce32da470f1f936b9d477da5c7028bf9"
   integrity sha512-jCvmsr+1IUSMUyzOkRcvnVbX3ZYC6g9TDrDbFuFmRDq7PD4yaGbLKNQL6k2jnArV8hjYxh7hVhAZB6s9HDGpZA==
 
-react@^18.3.1:
+react@^18:
   version "18.3.1"
   resolved "https://registry.yarnpkg.com/react/-/react-18.3.1.tgz#49ab892009c53933625bd16b2533fc754cab2891"
   integrity sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==
@@ -4379,27 +4379,6 @@ url-parse@^1.5.3:
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
-
-useeatmore@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/useeatmore/-/useeatmore-0.0.1.tgz#ebe24b69df3d3c337a889ecfd119df940a35fe7a"
-  integrity sha512-v5JhKYDZLftl6B1mloe713U57+M4G0lKiOPLmK1cvm3yYDVwZrPy2yrmjkkbU6ly9klltP6U4jbjFiFb2knf+Q==
-  dependencies:
-    jest "^29.7.0"
-    react "^18.3.1"
-    react-dom "^18.3.1"
-    ts-jest "^29.2.2"
-
-useeatmore@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/useeatmore/-/useeatmore-0.0.2.tgz#70b627b3bc6304588da3e2b420fc2c63144580ac"
-  integrity sha512-yjsgcQoRjfd5kjutK5onWHLWeeSdmYwVCz42W3xhFJ4PbXXYXvzThMiXVUa3lQ6TvCl9Z7FE28D9RphznlBZOg==
-  dependencies:
-    jest "^29.7.0"
-    react "^18.3.1"
-    react-dom "^18.3.1"
-    ts-jest "^29.2.2"
-    useeatmore "^0.0.1"
 
 v8-to-istanbul@^9.0.1:
   version "9.3.0"

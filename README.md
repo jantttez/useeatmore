@@ -1,3 +1,3 @@
-//hooks doesnt work and i dont now why...
+//its doesnt work.
 
 ![useeatmore](./useeatmorePreview.png)
