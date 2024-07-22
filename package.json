@@ -1,7 +1,8 @@
 {
   "name": "useeatmore",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "author": {
     "name": "jantttez",
     "url": "https://github.com/jantttez"
@@ -19,12 +20,14 @@
     "build": "tsc -b && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test": "jest"
+    "test": "jest",
+    "prepublishOnly": "yarn type &&  yarn build",
+    "type": "tsc --noEmit"
   },
   "peerDependencies": {
-    "@types/react": "^18.0.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "@types/react": "^18",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "peerDependenciesMeta": {
     "@types/react": {
@@ -52,6 +55,8 @@
     "jest-environment-jsdom": "^29.7.0",
     "jsdom": "^24.1.0",
     "pinst": "^3.0.0",
+    "react": "^18",
+    "react-dom": "^18",
     "ts-jest": "^29.2.2",
     "typescript": "^5.2.2",
     "vite": "^5.3.1"
